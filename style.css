@@ -8,10 +8,25 @@ header, footer{
     width: 100%;
     background-color: rgb(98, 38, 148);
 }
+
 header{
     height: 15vh;
 }
 
 footer{
    height: 5vh;
+}
+
+.contPrincipal{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 5%;
+}
+
+h3{
+    font-size: 25%;
+    font-family:'Arial' ;
+    color: azure ;
+    text-align: right;
 }
